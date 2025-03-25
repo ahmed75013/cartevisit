@@ -17,13 +17,15 @@ h5{
 }
 
 body{
-    background: var(--back_color);
+ background: var(--back_color);
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    transform: scale(2.5); /* Agrandit l'image de 150% */
 }
 
 .vcard{
